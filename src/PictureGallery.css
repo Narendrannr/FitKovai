@@ -1,0 +1,73 @@
+/* PictureGallery.css */
+
+.picture-gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  .picture-gallery h1 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+    text-align: center;
+  }
+  
+  .picture-gallery form {
+    margin-bottom: 20px;
+  }
+  
+  .picture-gallery label {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  .picture-gallery input[type="file"] {
+    margin-right: 10px;
+  }
+  
+  .picture-gallery input[type="text"] {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .picture-gallery .image-gallery {
+    width: 80%;
+    max-width: 800px;
+  }
+  
+  .picture-gallery .image-gallery-slide img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .picture-gallery .image-gallery-thumbnail-image {
+    border: 1px solid #ccc;
+    margin-right: 5px;
+  }
+  
+  .picture-gallery .image-gallery-thumbnail-image.selected {
+    border-color: #333;
+  }
+  
+  .picture-gallery .image-gallery-icon {
+    fill: #333;
+  }
+  
+  .picture-gallery .image-gallery-left-nav,
+  .picture-gallery .image-gallery-right-nav {
+    background-color: #fff;
+    border: none;
+    outline: none;
+    padding: 5px;
+    border-radius: 5px;
+  }
+  
+  .picture-gallery .image-gallery-left-nav:hover,
+  .picture-gallery .image-gallery-right-nav:hover {
+    background-color: #ccc;
+  }
+  
